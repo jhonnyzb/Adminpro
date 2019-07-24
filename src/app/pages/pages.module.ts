@@ -15,6 +15,7 @@ import { IncrementadorComponent } from '../componentes/incrementador/incrementad
 
 import { ChartsModule } from 'ng2-charts';
 import { GraficoComponent } from '../componentes/grafico/grafico.component';
+import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
 
 
 
@@ -25,7 +26,8 @@ import { GraficoComponent } from '../componentes/grafico/grafico.component';
     Graficas1Component,
     PagesComponent,
     IncrementadorComponent,
-    GraficoComponent
+    GraficoComponent,
+    AccoutSettingsComponent
   ],
   imports: [
     CommonModule,
