@@ -16,6 +16,8 @@ import { IncrementadorComponent } from '../componentes/incrementador/incrementad
 import { ChartsModule } from 'ng2-charts';
 import { GraficoComponent } from '../componentes/grafico/grafico.component';
 import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs-component/rxjs-component.component';
 
 
 
@@ -27,7 +29,9 @@ import { AccoutSettingsComponent } from './accout-settings/accout-settings.compo
     PagesComponent,
     IncrementadorComponent,
     GraficoComponent,
-    AccoutSettingsComponent
+    AccoutSettingsComponent,
+    PromesasComponent,
+    RxjsComponent
   ],
   imports: [
     CommonModule,
