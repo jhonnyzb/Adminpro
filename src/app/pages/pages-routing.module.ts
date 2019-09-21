@@ -7,10 +7,11 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
 import { PromesasComponent } from './promesas/promesas.component';
 import { RxjsComponent } from './rxjs-component/rxjs-component.component';
+import { LoginGuardGuard } from '../services/services.index';
 
 const routes: Routes = [
   {
-    path: '', component: PagesComponent,
+    path: '', component: PagesComponent, canActivate: [LoginGuardGuard],
     children: [
       {
         path: 'dashboard', component: DasboardComponent, data: { titulo: 'Dashboard', descripcion: 'Dashboard principal de la pagina' }
